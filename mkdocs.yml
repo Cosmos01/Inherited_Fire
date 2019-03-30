@@ -7,8 +7,7 @@ site_author: CodeMonster Wiki Team
 
 
 #Theme
-theme:
-  name: 'material'
+theme: readthedocs
 
 # Copyright
 copyright: 'Copyright &copy; 2019 CodeMonster'
