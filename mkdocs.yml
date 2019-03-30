@@ -1,1 +1,7 @@
-site_name: My Docs
+# Project Information
+site_name: CodeMonster Wiki
+site_description: CodeMonster Wiki
+site_author: CodeMonster Wiki Team
+
+# Copyright
+copyright: 'Copyright &copy; 2019 CodeMonster'
