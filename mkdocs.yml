@@ -5,6 +5,7 @@ site_author: CodeMonster Wiki Team
 
 
 #Theme
+theme: cosmo
 
 # Copyright
 copyright: 'Copyright &copy; 2019 CodeMonster'
