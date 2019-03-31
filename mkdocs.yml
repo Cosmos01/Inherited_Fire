@@ -3,10 +3,15 @@ site_name: CodeMonster Wiki
 site_description: CodeMonster Wiki
 site_author: CodeMonster Wiki Team
 
-
+#menu
+nav:
+  - Introduction: 
+    - main: index.md
+  - CTF:
+    - web: CTF/web/web.md
+    - pwn: CTF/pwn/pwn.md
 
 #Theme
-# Theme
 theme:
   name: 'bootstrap4'
   custom_dir: mkdocs_bootstrap4/
