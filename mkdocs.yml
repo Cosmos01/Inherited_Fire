@@ -4,8 +4,45 @@ site_description: CodeMonster Wiki
 site_author: CodeMonster Wiki Team
 
 
+
 #Theme
-theme: cosmo
+# Theme
+theme:
+  name: 'bootstrap4'
+  custom_dir: mkdocs_bootstrap4/
+  language: 'zh'
+  feature:
+    tabs: true
+  font:
+    text: 'Noto Sans'
+    code: 'Source Code Pro' 
+
+#Exten
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: false
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_png
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
 
 # Copyright
 copyright: 'Copyright &copy; 2019 CodeMonster'
